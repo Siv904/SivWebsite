@@ -1,14 +1,16 @@
-h {
-  color: #003B73;
-}
-
-p {
-  color: #003B73;
-}
-
 body {
   background-color: #BFD7ED;
   margin: 0;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  color: #003B73;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  font-size: 150%;
 }
 
 .header {
@@ -16,23 +18,25 @@ body {
   height: 50px;
   padding: 0px;
   margin: 0px;
-  background-color: #003B73;
+  background-color: #003B73; /* https://www.canva.com/colors/color-palettes/speckled-eggs/ */
 }
-
-/* https://www.canva.com/colors/color-palettes/speckled-eggs/ */
 
 .header img {
   padding: 5px;
 }
 
- .cart {
+.cart {
   position: absolute;
   top: 10px;
   right: 10px;
-  }
+}
 
-footer {
-    position: absolute;
-    bottom: 0;
-    font-size: 150%;
+.items {
+  padding: 20px;
+}
+
+.item {
+  background-color: black;
+  width: 100px;
+  height: 200px;
 }
