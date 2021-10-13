@@ -24,9 +24,14 @@ def shop2():
 def aboutme():
   return render_template('aboutme.html')
 
-@app.route('/cart/') #About me page
+@app.route('/cart/') #Cart page
 def cart():
   return render_template('cart.html')
+
+@app.route('/shop/item/') #Item page
+def item():
+  return render_template('item.html')
+
 
 if __name__ == '__main__':
   # Run the Flask app
