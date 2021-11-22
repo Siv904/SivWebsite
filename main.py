@@ -10,24 +10,19 @@ def index():
     return render_template('index.html')
 
 
-@app.route('/shop/')  #Shop page
-def shop():
-    return render_template('shop.html')
+@app.route('/FAQ/')  #FAQ page
+def FAQ():
+    return render_template('FAQ.html')
 
 
-@app.route('/about-me/')  #About me page
-def aboutme():
-    return render_template('aboutme.html')
+@app.route('/about/')  #About me page
+def about():
+    return render_template('about.html')
 
 
 @app.route('/cart/')  #Cart page
 def cart():
     return render_template('cart.html')
-
-
-@app.route('/shop/item/')  #Item page
-def item():
-    return render_template('item.html')
 
 
 if __name__ == '__main__':
