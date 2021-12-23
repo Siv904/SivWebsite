@@ -19,6 +19,12 @@ h4, h5{
   font-family: Cursive;
 }
 
+h6{
+  color: #003B73;
+  font-size: 15px;
+  font-family: Cursive;
+}
+
 /* Topbar */
 .header { 
   width: 100%;
@@ -35,6 +41,7 @@ h4, h5{
   padding: 5px;
   z-index: 10;
 }
+
 
 .cart {
   position: absolute;
@@ -97,6 +104,15 @@ h4, h5{
   max-width: 300px;
 }
 
+.logo {
+  margin-left: 170px;
+  max-width: 40px;
+  max-height: 40px;
+  padding: 30px;
+  border:1px solid red;
+}
+
+
 .button {
   background-color: #0074B7;
   color: #003B73;
@@ -150,22 +166,26 @@ h4, h5{
   align-items: center;
   text-align: center;
   max-width: 450px;
-  width: 100%;
+  width: 50%;
   border-radius: 10px;
   z-index: 5;
   opacity: 0;
   pointer-events: none;
-  transform: translate(-50% , -50%) scale(0.97);
+  transform: translate(-50% , -75%) scale(0.97);
+  margin-left: 35%;
+  z-index: 1000;
 }
 #check:checked ~ .alert_box{
   opacity: 1;
   pointer-events: auto;
-  transform: translate(-50% , -50%) scale(1);
+  transform: translate(-50% , -75%) scale(1);
   transition: all 0.3s ease;
+  z-index: 1000;
 }
 #check:checked ~ .background{
   opacity: 1;
   pointer-events: auto;
+  z-index: 999;
 }
 #check{
   display: none;
