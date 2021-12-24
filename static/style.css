@@ -109,7 +109,7 @@ h6{
   max-width: 40px;
   max-height: 40px;
   padding: 30px;
-  border:1px solid red;
+  /* border:2px solid red; */
 }
 
 
@@ -142,8 +142,27 @@ h6{
   border-radius: 20px;
 }
 .show_button:hover{
-  background: #2573a7;
+  background-color: #003B73;
+  color: #0074B7;
 }
+
+.backbutton {
+  background-color: #0074B7;
+  color: #003B73;
+  padding: 6px 17px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10x;
+  font-family: Cursive;
+  border-radius: 15px;
+}
+.backbutton:hover{
+  background-color: #003B73;
+  color: #0074B7;
+}
+
+
 .background{
   position: absolute;
   height: 100%;
