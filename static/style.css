@@ -3,6 +3,7 @@ body {
   margin: 0;
 }
 
+/* text sizes */
 p, h1, h2, h3 {
   color: #003B73;
   font-family: Sans-serif;
@@ -37,6 +38,7 @@ h6{
   background-color: #003B73;
 }
 
+/* top bar images */
 .header img {
   padding: 5px;
   z-index: 10;
@@ -51,16 +53,16 @@ h6{
   z-index: 15;
 }
 
-/* The sidebar menu */
+/* The sidebar */
 .sidenav {
-  height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 160px; /* Set the width of the sidebar */
-  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-  z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
+  height: 100%;
+  width: 160px; 
+  position: fixed; 
+  z-index: 1; 
+  top: 0; 
   left: 0;
-  background-color: #0074B7; /*color*/
-  overflow-x: hidden; /* Disable horizontal scroll */
+  background-color: #0074B7; 
+  overflow-x: hidden; 
   padding-top: 20px;
   font-family: Fantasy; 
 }
@@ -80,7 +82,7 @@ h6{
   text-shadow: 2px 2px 1px #003B73;
 }
 
-
+/* product info */
 .products {
   display: flex;
   flex-wrap: wrap;
@@ -104,6 +106,7 @@ h6{
   max-width: 300px;
 }
 
+/* social images */
 .logo {
   margin-left: 170px;
   max-width: 40px;
@@ -112,7 +115,7 @@ h6{
   /* border:2px solid red; */
 }
 
-
+/* view item button */
 .button {
   background-color: #0074B7;
   color: #003B73;
@@ -124,6 +127,7 @@ h6{
   font-family: Cursive;
   border-radius: 20px;
 }
+
 
 .button:hover {
   background-color: #003B73;
@@ -146,6 +150,7 @@ h6{
   color: #0074B7;
 }
 
+/* back button */
 .backbutton {
   background-color: #0074B7;
   color: #003B73;
@@ -162,7 +167,7 @@ h6{
   color: #0074B7;
 }
 
-
+/* transparent gray in alert box */
 .background{
   position: absolute;
   height: 100%;
@@ -176,6 +181,7 @@ h6{
   transition: all 0.3s ease;
 }
 
+/* item info alert box */
 .alert_box{
   padding: 30px;
   display: flex;
@@ -218,17 +224,13 @@ h6{
   line-height: 97px;
   font-size: 50px;
 }
-.alert_box header{
-  font-size: 35px;
-  font-weight: 500;
-  margin: 10px 0;
-}
-.alert_box p{
-  font-size: 20px;
-}
+
 .alert_box .button{
   margin-top: 20px;
 }
-/* https://www.canva.com/colors/color-palettes/speckled-eggs/ */
-/* Sans-serif, Cursive */
+
+/* colors: https://www.canva.com/colors/color-palettes/speckled-eggs/ */
+
+
+/* fonts: Sans-serif, Cursive */
 
